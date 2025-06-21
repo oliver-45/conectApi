@@ -31,3 +31,6 @@ fetch("http://127.0.0.1:3000/articles")
     console.error("Error al obtener los artículos:", error);
     document.querySelector('.desdeAPI').textContent = "No se pudieron cargar los artículos.";
   });
+
+
+  
